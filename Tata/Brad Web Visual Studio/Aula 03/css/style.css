@@ -1,0 +1,48 @@
+
+*{
+    font-family: Minecraft;
+}
+
+h1{
+    color: rgb(0,0,0) !important;
+    background-color: rgb (0,0,0);
+    border: 20px;
+    font-family: Minecraft;
+    
+}
+
+ul{
+    /*list-style-type: none;*/
+    list-style-image: url()
+}
+
+
+@font-face{
+    font-family: mine;
+    src: url(./font/minecraft_font.ttf);
+
+}
+
+h2{
+    text-shadow: +2px +2px 2px lightgreen;
+}
+
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  table{
+    width: 500px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td,th {
+    border-style: solid;
+    border-color: lightgreen;
+}
+

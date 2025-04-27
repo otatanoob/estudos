@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    color: white;
+    background: linear-gradient(145deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 67%, rgba(255,214,0,1) 100%);
+}
+
+.imagem img{
+    border-radius: 50px;
+    box-shadow: 0px 0px 50px yellow;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+a{
+    color: yellow;
+    text-shadow: 0px 0px 10px yellow;
+}
+
+h1{
+    color: yellow;
+    text-shadow: 0px 0px 10px yellow;
+}
+
+h2{
+    color: yellow;
+    text-shadow: 0px 0px 10px yellow;
+}
+
+.underdog-regular {
+    font-family: "Underdog", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  *{
+    font-family: "Underdog"
+  }
+
+  table{
+    color: yellow;
+    text-align: center;
+    border-collapse: collapse;
+  }
+
+  td,th {
+    border-style:double;
+    border-color: rgb(0, 0, 0);
+}
+
+ul{
+    color: yellow;  
+}
+
+ol{
+    color: yellow;
+}

@@ -1,0 +1,33 @@
+#content{
+    background-color:blue;
+    height:600px;
+    width:600px;
+    padding: 5px 10px 4px 3px;
+    display:flex;
+}
+
+
+.item{
+    height: 100px; /*Altura*/
+    width:250px; /*Largura*/
+    box-sizing: border-box; /*content-box valor padrão*/
+    padding:10px;   /*Espaçamento entre conteúdo e borda*/
+    margin:10px; /*Margem depois da border*/
+    color: blue; /*Cor do texto*/
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.51);
+    background-color: white; /*cor do fundo*/
+    font-weight: bold; /*negrito*/
+    border-radius: 0.5em; /*Arredondamento da borda*/
+    border: 5px grove black; /*Tipo da borda*/
+}
+
+/*
+#id3{
+    visibility: visible;
+}
+
+#id3:hover{
+    display: hidden ;
+}
+*/
+

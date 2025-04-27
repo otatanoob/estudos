@@ -1,0 +1,51 @@
+:root{
+    --cor-perigo: red;
+    --bordacolorida: 2px solid lightblue;
+    --marge: 10px;
+    --maiusculo: uppercase;
+    --corfundo: black;
+
+}
+
+p:last-of-type{
+    color: white
+}
+
+p{
+    background-color:var(--corfundo);
+    margin: var(--margem);
+}
+
+
+
+h1{
+    color: rgb(23, 24, 24) !important;
+    background-color:rgb(43, 255, 146);
+    border-radius: 20px;
+    border: 14px solid rgb(2, 150, 73);
+}
+
+body{
+    background-color:rgb(255, 255, 255)
+}
+
+p{
+    
+}
+
+h2{
+    color: rgb(0,0,0)
+    background-color:rgb(43, 255, 146)
+}
+
+h2.unica{
+    background-color:rgb(2, 119, 59)
+}
+
+#id2{
+    color: green;
+}
+
+table{
+    width: 500px;
+}
