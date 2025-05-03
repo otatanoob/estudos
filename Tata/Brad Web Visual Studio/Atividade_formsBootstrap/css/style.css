@@ -1,0 +1,20 @@
+img{
+    width: 50%;
+    height: 50%;
+    margin: 20px;
+}
+*{
+    background-color: rgb(150, 0, 0) ;
+}
+
+body{
+    background-color: rgb(150, 0, 0) ;
+}
+
+label{
+    color: aliceblue;
+}
+
+h2{
+    color: aliceblue;
+}

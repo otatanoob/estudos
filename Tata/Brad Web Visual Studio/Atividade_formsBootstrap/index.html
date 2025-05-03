@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radar de velocidade</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <div class="container">
+          <img src="./img/ferrari vermelha.jpg" alt="ferrari" />
+        </div>
+
+        <div class="mb-3">
+          <label for="" class="form-label">Velocidade do veículo</label>
+          <input
+            type="number"
+            class="form-control"
+            id="inVelocidade"
+            min="1"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="" class="form-label">Velocidade Permitida da Via</label>
+          <input
+            type="number"
+            class="form-control"
+            id="inVelPermitida"
+            required
+            min="1"
+          />
+        </div>
+
+        <button type="submit" class="btn btn-danger">Enviar</button>
+      </div>
+    </form>
+    <div class="container">
+      <h2 id="outResultado"></h2>
+      <h2 id="outMulta"></h2>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
